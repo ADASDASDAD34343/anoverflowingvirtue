@@ -1,2 +1,11 @@
 "use strict"
-console.log("로그")
+const id =document.querySelector("#id")
+const psword = document.querySelector("#psword")
+const loginBtn =document.querySelector("button")
+loginBtn.addEventListener("click",login)
+ function login(){
+  const req = {
+    id:id.valuel,
+    psword:psword.valuel
+  }
+  fetch(req); }
