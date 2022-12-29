@@ -6,4 +6,6 @@ const ctrl=require("./home.ctrl")
 
 router.get('/',ctrl.home)
  router.get('/login', ctrl.login)
+ router.get('/AdministratorPage', ctrl.AdministratorPage)
+ 
  module.exports= router;
