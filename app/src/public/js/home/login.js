@@ -8,4 +8,4 @@ loginBtn.addEventListener("click",login)
     id:id.valuel,
     psword:psword.valuel
   }
-  fetch(req); }
+ }
