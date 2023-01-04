@@ -1,0 +1,24 @@
+#no-mobile {
+
+  z-index: 99;
+  background-color: var(--yellow);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+#mobile {
+  display: none;
+}
+
+@media screen  and (max-width: 440px) {
+  #no-mobile {
+    visibility: hidden;
+  }
+
+  #mobile {
+    display: block;
+  }
+}

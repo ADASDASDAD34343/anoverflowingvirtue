@@ -1,18 +1,22 @@
 {
-  "name": "34",
+  "name": "sahopping",
   "version": "1.0.0",
   "description": "",
-  "main": "web.js", 
+  "main": "web.js",
   "dependencies": {
     "ejs": "^3.1.8",
     "escape-html": "^1.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mariadb": "^3.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "promise-mysql": "^5.2.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "a":"node  web.js",
+    "a": "node  web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "git": "",
   "keywords": [],
   "author": "프린",
   "license": "MIT"
