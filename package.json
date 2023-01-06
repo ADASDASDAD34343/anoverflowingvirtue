@@ -10,7 +10,8 @@
     "mariadb": "^3.0.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
-    "promise-mysql": "^5.2.0"
+    "promise-mysql": "^5.2.0",
+    "tedious": "^15.1.2"
   },
   "scripts": {
     "a": "node  web.js",
