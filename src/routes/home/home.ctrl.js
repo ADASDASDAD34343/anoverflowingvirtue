@@ -13,7 +13,7 @@ const AdministratorPage = (요청,응답) => {
   응답.render('home/AdministratorPage');
 }
 const anoverflowingvirtueServer =(요청,응답)=>{
-  응답.render('home/anoverflowingvirtue');
+  응답.render('home/anoverflowingvirtueServer');
 }
 // 
 module.exports = {
