@@ -11,7 +11,7 @@ const home = require("./src/routes/home")
 app.use("/",home); 
 app.use("/login",home); 
 app.use("/AdministratorPage",home); 
-app.use("/anoverflowingvirtue",home); 
+app.use("/anoverflowingvirtueServer",home); 
 
 app.use(express.static(`${__dirname}/src/public`))
 module.exports= app;

@@ -12,7 +12,7 @@ const AdministratorPage = (요청,응답) => {
   
   응답.render('home/AdministratorPage');
 }
-const anoverflowingvirtue =(요청,응답)=>{
+const anoverflowingvirtueServer =(요청,응답)=>{
   응답.render('home/anoverflowingvirtue');
 }
 // 
@@ -20,6 +20,6 @@ module.exports = {
   home,
   login,
   AdministratorPage,
-  anoverflowingvirtue,
+  anoverflowingvirtueServer,
 
 };
