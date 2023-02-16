@@ -24,22 +24,22 @@ app.listen(8080, ()=> {
 
 //
 
-//const mysql      = require('mysql');
-//const connection = mysql.createConnection({
-  //host     : ' http://211.199.249.218:3306',
-  //user     : 'localhost',
-  //password : 'a_zse4123!@#',
-  //database : 'my_db'
-//});
+const mysql      = require('mysql');
+const connection = mysql.createConnection({
+host     : '211.199.249.218',
+user     : 'newuser',
+password : 'Gaspp2647@@',
+database : 'Userdb'
+});
 
-//connection.connect();
+connection.connect();
 
-//connection.query('SELECT * from Users', (error, rows, fields) => {
-  //if (error) throw error;
-  //console.log('User info is: ', rows);
-//});
+connection.query('SELECT * from Users', (error, rows, fields) => {
+  if (error) throw error;
+  console.log('User info is: ', rows);
+});
 
-//connection.end();
+connection.end();
 
 // Create connection to database
 
