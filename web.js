@@ -28,7 +28,7 @@ const mysql      = require('mysql');
 const connection = mysql.createConnection({
 host     : '211.199.249.218',
 user     : 'newuser',
-password : 'Gaspp2647@@',
+password : 'ㅓ@@',
 database : 'Userdb'
 });
 
